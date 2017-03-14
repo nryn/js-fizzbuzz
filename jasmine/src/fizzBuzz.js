@@ -15,6 +15,8 @@ function fizzbuzz(number) {
     return("fizz");
   else if (number % 5 === 0)
     return("buzz");
+  else
+    return(number);
 }
 
 for (var n = 1; n < 100; n++) {
